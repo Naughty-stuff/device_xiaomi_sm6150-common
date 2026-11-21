@@ -89,7 +89,8 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Kernel Path
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
-TARGET_KERNEL_CONFIG := vendor/sdmsteppe-perf_defconfig
+TARGET_KERNEL_CLANG_VERSION := r510928
+TARGET_KERNEL_NO_GCC := true
 
 # Kernel Cmdline
 BOARD_KERNEL_CMDLINE := \
